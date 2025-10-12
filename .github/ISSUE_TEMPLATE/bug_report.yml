@@ -1,0 +1,46 @@
+name: "🐞 Bug Report | Hata Bildirimi"
+description: "Bir hata mı buldun? Detayları burada paylaş."
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Lütfen aşağıdaki bilgileri eksiksiz doldur.
+  - type: input
+    id: environment
+    attributes:
+      label: "Çalışma Ortamı / Environment"
+      description: "Örnek: Windows 11, Python 3.12"
+      placeholder: "örn. Ubuntu 22.04, Python 3.10"
+  - type: textarea
+    id: steps
+    attributes:
+      label: "Hatanın Oluştuğu Adımlar / Steps to Reproduce"
+      description: "Hatayı yeniden oluşturmak için gereken adımları sırayla yaz."
+      placeholder: |
+        1. 'x' dosyasını çalıştır
+        2. 'y' parametresini gir
+        3. Hata mesajı çıkıyor
+  - type: textarea
+    id: expected
+    attributes:
+      label: "Beklenen Davranış / Expected Behavior"
+      description: "Ne olmasını bekliyordun?"
+  - type: textarea
+    id: actual
+    attributes:
+      label: "Gerçek Davranış / Actual Behavior"
+      description: "Ne oldu?"
+  - type: textarea
+    id: logs
+    attributes:
+      label: "Hata Mesajı veya Loglar / Error Message or Logs"
+      description: "Varsa terminal çıktısı veya traceback'i ekle."
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: "Kontrol Listesi / Checklist"
+      options:
+        - label: "Bu hatanın daha önce rapor edilmediğini kontrol ettim."
+        - label: "En son sürümü kullanıyorum."
