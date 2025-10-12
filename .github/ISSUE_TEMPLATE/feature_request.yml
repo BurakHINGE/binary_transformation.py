@@ -1,0 +1,32 @@
+name: "✨ Feature Request | Özellik Önerisi"
+description: "Yeni bir özellik mi eklenmeli? Fikrini paylaş!"
+title: "[FEATURE] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Yeni fikirleri duymaktan memnuniyet duyarız!  
+        Lütfen aşağıdaki bölümleri doldur.
+  - type: input
+    id: summary
+    attributes:
+      label: "Özelliğin Kısa Tanımı / Short Summary"
+      placeholder: "Örn. CLI desteği eklenmeli"
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivasyon / Motivation"
+      description: "Bu özellik neden gerekli? Ne problemi çözüyor?"
+  - type: textarea
+    id: description
+    attributes:
+      label: "Detaylı Açıklama / Detailed Description"
+      description: "Nasıl çalışmalı? Hangi senaryolarda kullanılacak?"
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: "Kontrol Listesi / Checklist"
+      options:
+        - label: "Benzer öneri daha önce açılmamış."
+        - label: "Uygulama için teknik detayları düşündüm."
