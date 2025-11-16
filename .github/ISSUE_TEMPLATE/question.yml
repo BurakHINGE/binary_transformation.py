@@ -1,0 +1,18 @@
+name: "Question / Soru"
+description: "Ask a question / Soru sorun"
+labels: ["question"]
+
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: "Question / Soru"
+      placeholder: "EN: Write your question here\nTR: Sorunuzu buraya yazın"
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details / Detaylar"
+      placeholder: "EN: Add any extra details (optional)\nTR: Ek detaylar ekleyebilirsiniz (opsiyonel)"
