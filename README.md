@@ -9,15 +9,15 @@
 
 ## 📌 Version Info / Sürüm Bilgisi
 
-- **Version:** v1.0.0
-- **Sürüm:** v1.0.0  
+- **Version:** v1.1.0
+- **Sürüm:** v1.1.0  
 
 ---
 
 | Language / Dil | Link / Bağlantı |
 |----------------|-----------------|
-| 🇬🇧 English  | [English Version](binary_transformation.py) |
-| 🇹🇷 Türkçe   | [Türkçe Versiyon](binary_transformation.py) |
+| 🇬🇧 English  | [English Version](eng_binary_transformation.py) |
+| 🇹🇷 Türkçe   | [Türkçe Versiyon](tr_binary_transformation.py) |
 
 ---
 
@@ -55,6 +55,7 @@ Girilen tam sayının karşılık gelen binary değerini ekrana yazdırır. ✨
 
 | Version / Sürüm | Date / Tarih | Description / Açıklama |
 |-----------------|--------------|-----------------------|
+| v1.1.0          | 2026-01-22   | English version has been released / İngilizce sürüm eklendi |
 | v1.0.0          | 2025-11-21   | Converts numbers to binary / Sayıları binaryye çevirir |
 
 ---
